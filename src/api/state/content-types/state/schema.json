@@ -1,0 +1,67 @@
+{
+  "kind": "collectionType",
+  "collectionName": "states",
+  "info": {
+    "singularName": "state",
+    "pluralName": "states",
+    "displayName": "state"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "state": {
+      "type": "string",
+      "required": true
+    },
+    "zipcodes": {
+      "type": "json",
+      "required": true
+    },
+    "state_services": {
+      "type": "customField",
+      "options": [
+        "System Design:design",
+        "Installation:installation",
+        "Replacement:replacement",
+        "Site & Soil Evaluation:site-soil",
+        "Repair:repair",
+        "Maintenance:maintenance",
+        "Inspection:inspection"
+      ],
+      "customField": "plugin::multi-select.multi-select"
+    },
+    "home_title": {
+      "type": "string"
+    },
+    "our_projects_images": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "our_projects_texts": {
+      "type": "text"
+    },
+    "sa_title": {
+      "type": "string"
+    },
+    "sa_mb_title": {
+      "type": "string"
+    },
+    "sa_mb_text": {
+      "type": "text"
+    },
+    "sa_block_1": {
+      "type": "text"
+    },
+    "sa_block_2": {
+      "type": "text"
+    },
+    "sa_nearby_cities": {
+      "type": "json"
+    }
+  }
+}
