@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "home"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "great_reasons_title": {
+      "type": "text",
+      "required": true
+    },
+    "great_reasons_text": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

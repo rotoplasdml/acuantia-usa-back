@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "for_residential_and_commercial_developments",
+  "info": {
+    "singularName": "for-residential-and-commercial-development",
+    "pluralName": "for-residential-and-commercial-developments",
+    "displayName": "For Residential & Commercial Development"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header_title": {
+      "type": "string"
+    },
+    "header_text": {
+      "type": "text"
+    },
+    "great_reasons_title": {
+      "type": "string"
+    },
+    "great_reasons_text": {
+      "type": "richtext"
+    }
+  }
+}
