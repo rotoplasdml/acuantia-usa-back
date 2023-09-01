@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "submit_your_projects",
+  "info": {
+    "singularName": "submit-your-project",
+    "pluralName": "submit-your-projects",
+    "displayName": "Submit Your Project",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header_text": {
+      "type": "richtext"
+    },
+    "header_title": {
+      "type": "richtext"
+    }
+  }
+}

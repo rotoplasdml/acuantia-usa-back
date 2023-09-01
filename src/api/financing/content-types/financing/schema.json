@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "financings",
+  "info": {
+    "singularName": "financing",
+    "pluralName": "financings",
+    "displayName": "Financing",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header_title": {
+      "type": "richtext"
+    },
+    "header_text": {
+      "type": "richtext"
+    }
+  }
+}

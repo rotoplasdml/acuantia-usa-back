@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "become_a_partners",
+  "info": {
+    "singularName": "become-a-partner",
+    "pluralName": "become-a-partners",
+    "displayName": "Become a Partner",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header_title": {
+      "type": "richtext"
+    },
+    "header_text": {
+      "type": "richtext"
+    }
+  }
+}

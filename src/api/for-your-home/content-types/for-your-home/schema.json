@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "for_residential_and_commercial_developments",
+  "collectionName": "for_your_homes",
   "info": {
-    "singularName": "for-residential-and-commercial-development",
-    "pluralName": "for-residential-and-commercial-developments",
-    "displayName": "For Residential & Commercial Development",
+    "singularName": "for-your-home",
+    "pluralName": "for-your-homes",
+    "displayName": "For Your Home",
     "description": ""
   },
   "options": {

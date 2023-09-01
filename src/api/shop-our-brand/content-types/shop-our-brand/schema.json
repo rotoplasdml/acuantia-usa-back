@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "shop_our_brands",
+  "info": {
+    "singularName": "shop-our-brand",
+    "pluralName": "shop-our-brands",
+    "displayName": "Shop Our Brands"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header_title": {
+      "type": "richtext"
+    },
+    "header_text": {
+      "type": "richtext"
+    }
+  }
+}
