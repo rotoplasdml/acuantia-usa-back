@@ -4,7 +4,8 @@
   "info": {
     "singularName": "county",
     "pluralName": "counties",
-    "displayName": "county"
+    "displayName": "county",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -44,33 +45,31 @@
     "home_title": {
       "type": "string"
     },
-    "our_projects_images": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": true
+    "sa_mb_title": {
+      "type": "string"
     },
-    "our_projects_texts": {
-      "type": "text"
+    "sa_nearby_cities": {
+      "type": "json"
+    },
+    "city_slug": {
+      "type": "uid",
+      "targetField": "city",
+      "required": true
     },
     "sa_title": {
       "type": "string"
     },
-    "sa_mb_title": {
-      "type": "string"
-    },
     "sa_mb_text": {
-      "type": "text"
+      "type": "richtext",
+      "default": "null"
     },
     "sa_block_1": {
-      "type": "text"
+      "type": "richtext",
+      "default": "null"
     },
     "sa_block_2": {
-      "type": "text"
-    },
-    "sa_nearby_cities": {
-      "type": "json"
+      "type": "richtext",
+      "default": "null"
     }
   }
 }

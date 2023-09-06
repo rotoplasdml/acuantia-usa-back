@@ -4,7 +4,8 @@
   "info": {
     "singularName": "state",
     "pluralName": "states",
-    "displayName": "state"
+    "displayName": "state",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -35,33 +36,30 @@
     "home_title": {
       "type": "string"
     },
-    "our_projects_images": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": true
-    },
-    "our_projects_texts": {
-      "type": "text"
-    },
     "sa_title": {
       "type": "string"
     },
     "sa_mb_title": {
       "type": "string"
     },
-    "sa_mb_text": {
-      "type": "text"
-    },
-    "sa_block_1": {
-      "type": "text"
-    },
-    "sa_block_2": {
-      "type": "text"
-    },
     "sa_nearby_cities": {
       "type": "json"
+    },
+    "state_slug": {
+      "type": "uid",
+      "targetField": "state",
+      "required": true
+    },
+    "sa_mb_text": {
+      "type": "richtext"
+    },
+    "sa_block_1": {
+      "type": "richtext",
+      "default": "null"
+    },
+    "sa_block_2": {
+      "type": "richtext",
+      "default": "null"
     }
   }
 }
