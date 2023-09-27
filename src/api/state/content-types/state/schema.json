@@ -60,6 +60,14 @@
     "sa_block_2": {
       "type": "richtext",
       "default": "null"
+    },
+    "title_tag": {
+      "type": "text",
+      "default": "null"
+    },
+    "meta_description": {
+      "type": "text",
+      "default": "null"
     }
   }
 }
