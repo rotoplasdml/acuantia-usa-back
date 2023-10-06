@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "become_a_partner_slides",
+  "info": {
+    "singularName": "become-a-partner-slide",
+    "pluralName": "become-a-partner-slides",
+    "displayName": "Become a Partner Slider"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slide_order": {
+      "type": "uid",
+      "default": "null",
+      "required": true
+    },
+    "slide_title": {
+      "type": "text",
+      "required": true
+    },
+    "slide_text": {
+      "type": "richtext",
+      "required": true
+    },
+    "slide_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

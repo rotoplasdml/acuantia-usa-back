@@ -4,7 +4,8 @@
   "info": {
     "singularName": "faq-qa",
     "pluralName": "faq-qas",
-    "displayName": "faq_qa"
+    "displayName": "faq_qa",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,6 +18,10 @@
     },
     "answer": {
       "type": "richtext",
+      "required": true
+    },
+    "faq_order": {
+      "type": "integer",
       "required": true
     }
   }
