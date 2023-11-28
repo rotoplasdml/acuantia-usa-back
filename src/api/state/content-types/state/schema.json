@@ -68,6 +68,10 @@
     "meta_description": {
       "type": "text",
       "default": "null"
+    },
+    "sa_services_title": {
+      "type": "string",
+      "default": "null"
     }
   }
 }
